@@ -1,0 +1,116 @@
+:root{
+--mainColor1:#000000;
+--mainColor2:#FFFFFF;
+--colorContent:#333333;
+--colorIcon:#746ae4;
+}
+a ,.nav-link{
+    color: var(--mainColor1);
+}
+a:hover ,.nav-link:hover ,.nav-link:focus {
+    color: var(--mainColor1);
+}
+@media screen and (max-width:1000px) {
+    .imglogo img{
+        width: 100px;
+    }
+   
+}
+.navbar-toggler{
+    color: var(--mainColor1);
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.navbar ul li a{
+font-size: 14px;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+.navbar-brand{
+    font-family: "Vollkorn", serif;
+}
+.heading1 {
+    max-width: 470px;
+}
+.homePar{
+    max-width: 570px;
+}
+header{
+    background-color: var(--mainColor1);
+}
+/* data */
+.data i{
+    color: var(--colorIcon);
+}
+.data-p{
+    font-size: 14px;
+}
+
+/* About */
+.btn-GetStarted{
+    background-color: var(--mainColor1);
+    color: var(--mainColor2);
+    border: 1px solid var(--mainColor2);
+}
+.btn-GetStarted:hover{
+    background-color: var(--mainColor2);
+    color: var(--mainColor1);
+    border: 1px solid var(--mainColor1);
+
+}
+.btn-talkToSales{
+    border: 1px solid var(--mainColor1);
+    color: var(--mainColor1);
+    background-color: var(--mainColor2);
+}
+.btn-talkToSales:hover{
+    background-color: var(--mainColor1);
+    color: var(--mainColor2);
+    border: 1px solid var(--mainColor2);
+}
+
+.sec2{
+    background-color: var(--mainColor1);
+}
+.sec2 h3 ,.content-team h3 ,.content-team p ,.sec2 p{
+    color: var(--mainColor2);
+}
+.content-team{
+    background-color: var(--mainColor1);
+}
+.content-team h3 {
+    max-width: 500px;
+    margin: auto;
+}
+.content-team p{
+    max-width: 700px;
+    margin: auto;
+}
+
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: .5rem 1rem;
+    color: #212529;
+    text-decoration: none;
+    background-color: transparent;
+    border:none;
+}
+/* @media screen and (max-width:1000px) and (min-width:700px) {
+    .listGrop{
+        width: 33.333%;
+    }
+    .listGrop{
+        width:50%;
+    }
+} */
+.bor{
+    border-bottom: var(--mainColor1) solid 1px;
+}
+.footerPar{
+cursor: pointer;
+}
